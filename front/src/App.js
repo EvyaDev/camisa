@@ -4,7 +4,10 @@ import Home from "./components/Home";
 import OrdersPage from "./components/OrdersPage";
 import "./styles/App.css"
 
+
 export default function App() {
+
+
   const [orders, setOrders] = useState([]);
 
   // טעינת הנתונים מהשרת
