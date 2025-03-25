@@ -4,13 +4,14 @@ import "../styles/OrdersPage.css"
 export default function OrdersPage({ type, orders, updateStatus, deleteOrder }) {
     const filteredOrders = orders.filter((order) => order.type === type);
 
+
     return (
         <div className="orders-container">
             <h2>הזמנות {type}</h2>
             <table>
                 <thead>
                     <tr>
-                        <th>ID</th>
+                        <th>מספר הזמנה</th>
                         <th>סוג</th>
                         <th>סטטוס</th>
                         <th>פעולות</th>

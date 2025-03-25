@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "../styles/Home.css"
+
 export default function Home({ orders }) {
     const countOrders = (type) => orders.filter(order => order.type === type && order.status !== "בוצע").length;
 
