@@ -13,6 +13,7 @@ export default function OrdersPage({ type, orders, updateStatus, deleteOrder }) 
                     <tr>
                         <th>מספר הזמנה</th>
                         <th>סוג</th>
+                        <th>שם לקוח</th>
                         <th>סטטוס</th>
                         <th>פעולות</th>
                     </tr>
